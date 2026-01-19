@@ -1,0 +1,26 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 4ced6010-876d-490b-af80-300cb878dcbf # Entry > Llibre
+handle: entryLlibre
+maxAuthors: 1
+name: 'Entry > Llibre'
+previewTargets:
+  -
+    label: 'Página de entrada principal'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  ee778f01-15ae-43a3-b335-e37f288be176: # En present [ES]
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  ff486d12-d94d-4a7f-b506-57c5a3c2e2e0: # En present [CA]
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel
