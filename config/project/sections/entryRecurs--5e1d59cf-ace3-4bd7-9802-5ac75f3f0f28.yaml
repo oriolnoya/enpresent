@@ -5,6 +5,8 @@ entryTypes:
     uid: b0f3ccf5-cdc5-47e5-bb3e-e83014e862a3 # Entry > Recurs > Resum
   -
     uid: 7e586577-127c-46df-b92d-db3f6f2b3d6f # Entry > Recurs > Pregunta
+  -
+    uid: b0588da5-48d5-4745-abed-464ae1811973 # Entry > Recurs > Enllaç
 handle: entryRecurs
 maxAuthors: 1
 name: 'Entry > Recurs'

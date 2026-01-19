@@ -1,0 +1,28 @@
+columnSuffix: null
+handle: llibreDelCapitol
+instructions: null
+name: 'Llibre del capítol'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  defaultPlacement: end
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  readOnly: ''
+  selectionLabel: null
+  showCardsInGrid: true
+  showSearchInput: true
+  showSiteMenu: false
+  showUnpermittedEntries: false
+  showUnpermittedSections: false
+  sources:
+    - 'section:c6bc2c8d-cdc6-477a-9261-a424e03645a9' # Entry > Llibre
+  targetFieldId: fe2f4045-02f4-41ad-a175-eb69191a1a05 # Capítols
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: none
+type: robuust\reverserelations\fields\ReverseEntries

@@ -1,37 +1,37 @@
 color: null
 description: null
 fieldLayouts:
-  b2d0c920-50e4-4d26-89b1-3035f2ac77e7:
+  ed7bf7d6-055c-4d1a-8a54-3c1d8c21cae9:
     cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2026-01-19T12:25:49+00:00'
+            dateAdded: '2026-01-19T12:48:19+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: d779f0dc-9989-4bfc-a650-2dbbaf83669e # Text ric
-            handle: text
+            fieldUid: 8952572a-e79d-48ec-b8c9-3762274fd560 # Enllaç
+            handle: null
             includeInCards: false
             instructions: null
-            label: Text
+            label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2f342ecd-4d00-482e-a6e3-1525a196bd08
+            uid: df9494a6-2696-4eaa-a9b0-d3d4194f7e76
             userCondition: null
             warning: null
             width: 100
         name: Contenido
-        uid: 338d48f0-584e-4961-9316-587802588738
+        uid: a311436b-d28c-4e50-aa0d-5436c81050d8
         userCondition: null
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2026-01-19T12:38:45+00:00'
+            dateAdded: '2026-01-19T12:49:41+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: b0993479-9c99-451f-8b5b-4116eb1cf405 # Capítols del recurs
@@ -43,21 +43,21 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5cf8cc8c-5a84-4469-adfb-f34955cabe09
+            uid: 9d623fad-6ef3-4a3b-851e-88080d14e7a4
             userCondition: null
             warning: null
             width: 100
         name: Relacionats
-        uid: bac3352d-5724-463e-937a-d41dd2278f98
+        uid: 73d275d1-9b9c-400b-9000-b2e4bf496d5e
         userCondition: null
-handle: entryRecursPregunta
+handle: entryRecursEnllac
 hasTitleField: false
 icon: null
-name: 'Entry > Recurs > Pregunta'
-showSlugField: true
+name: 'Entry > Recurs > Enllaç'
+showSlugField: false
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: '{text}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

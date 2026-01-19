@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14732c7d23bb5a13b2f64f454bd9eeb6",
+    "content-hash": "3aa8567669ffa9c4a514ef8f3e2a74a6",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -3848,6 +3848,52 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "robuust/craft-reverserelations",
+            "version": "3.0.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robuust/craft-reverserelations/zipball/f7d10b3a7a7269704455a92ed57434d635d88bfe",
+                "reference": "f7d10b3a7a7269704455a92ed57434d635d88bfe",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": ">=5.0",
+                "php": "^8.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "schemaVersion": "1.0.1",
+                "handle": "reverserelations",
+                "name": "Reverse Relations",
+                "developer": "Robuust",
+                "developerUrl": "https://robuust.digital",
+                "documentationUrl": "https://github.com/robuust/craft-reverserelations/blob/master/README.md",
+                "changelogUrl": "https://github.com/robuust/craft-reverserelations/blob/master/CHANGELOG.md",
+                "downloadUrl": "https://github.com/robuust/craft-reverserelations/releases/latest",
+                "hasSettings": false,
+                "hasCpSection": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "robuust\\reverserelations\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bob Olde Hampsink",
+                    "email": "bob@robuust.digital"
+                }
+            ],
+            "description": "Reverse Relations for Craft",
+            "support": {
+                "email": "bob@robuust.digital"
+            },
+            "time": "2025-07-09T06:03:14+00:00"
         },
         {
             "name": "samdark/yii2-psr-log-target",

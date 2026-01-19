@@ -57,6 +57,29 @@ fieldLayouts:
         name: Contenido
         uid: bbc2c33e-f39b-4d63-abb8-a4283950a44b
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-19T13:00:47+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ddca9896-fed1-46a0-9f54-6c6f34565ed3 # Llibre del capítol
+            handle: llibre
+            includeInCards: false
+            instructions: null
+            label: llibre
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3c2a1988-a627-483c-b532-9284b53a2113
+            userCondition: null
+            warning: null
+            width: 100
+        name: Relacionats
+        uid: 2b7e00db-70b9-48ec-aada-5b379dafcd8f
+        userCondition: null
 handle: entryCapitol
 hasTitleField: true
 icon: null

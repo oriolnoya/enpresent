@@ -1,0 +1,28 @@
+columnSuffix: null
+handle: llibresPersona
+instructions: null
+name: 'Llibres de la persona'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  defaultPlacement: end
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  readOnly: ''
+  selectionLabel: null
+  showCardsInGrid: true
+  showSearchInput: true
+  showSiteMenu: false
+  showUnpermittedEntries: false
+  showUnpermittedSections: false
+  sources:
+    - 'section:c6bc2c8d-cdc6-477a-9261-a424e03645a9' # Entry > Llibre
+  targetFieldId: d2399b89-87b2-4f3a-9eb7-e311a405ef62 # Persones
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: none
+type: robuust\reverserelations\fields\ReverseEntries

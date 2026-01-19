@@ -40,6 +40,29 @@ fieldLayouts:
         name: Contenido
         uid: 179981c6-affd-4c60-9610-d66ec8965899
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-19T12:59:31+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 7b4f3e82-417a-4f8f-a415-b801acb41d7c # Llibres de la persona
+            handle: llibres
+            includeInCards: false
+            instructions: null
+            label: Llibres
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ca783461-2b0c-432b-b9da-e81307806750
+            userCondition: null
+            warning: null
+            width: 100
+        name: Relacionats
+        uid: fc75ab57-164f-4fa0-ac7f-56fd376cf0d3
+        userCondition: null
 handle: entryPersona
 hasTitleField: true
 icon: null

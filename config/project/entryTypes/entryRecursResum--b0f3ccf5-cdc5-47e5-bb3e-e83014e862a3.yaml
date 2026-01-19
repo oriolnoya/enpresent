@@ -27,14 +27,37 @@ fieldLayouts:
         name: Contenido
         uid: 6b467126-187f-4001-bc75-8113944ee2bc
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-19T12:39:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b0993479-9c99-451f-8b5b-4116eb1cf405 # Capítols del recurs
+            handle: capitols
+            includeInCards: false
+            instructions: null
+            label: Capítols
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 754f467e-bffa-496b-8f83-92a720199bb8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Relacionats
+        uid: 9d80a6a1-a738-4ebb-8f96-761a0b4038a2
+        userCondition: null
 handle: entryRecursResum
 hasTitleField: false
 icon: null
 name: 'Entry > Recurs > Resum'
-showSlugField: true
+showSlugField: false
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: null
+titleFormat: "Resum - {capitols.one().title ?? ''}"
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

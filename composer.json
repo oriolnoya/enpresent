@@ -6,6 +6,7 @@
     "craftcms/cms": "^5.0.0",
     "digitalastronaut/craft-author-toolbar": "v1.2.9-beta",
     "nystudio107/craft-seomatic": "5.1.19",
+    "robuust/craft-reverserelations": "3.0.6",
     "verbb/image-resizer": "4.0.4",
     "vlucas/phpdotenv": "^5.4.0"
   },
