@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: ca
+name: 'En present'
+primary: true
+siteGroup: 39561329-9989-45fe-b242-218cbe6b3e40 # En present
+sortOrder: 1

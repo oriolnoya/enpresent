@@ -1,0 +1,22 @@
+dateModified: 1768818558
+email:
+  fromEmail: oriolnoya@gmail.com
+  fromName: 'En present'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    39561329-9989-45fe-b242-218cbe6b3e40: 'En present' # En present
+    ff486d12-d94d-4a7f-b506-57c5a3c2e2e0: 'En present' # En present
+system:
+  edition: solo
+  live: true
+  name: 'En present'
+  schemaVersion: 5.8.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
