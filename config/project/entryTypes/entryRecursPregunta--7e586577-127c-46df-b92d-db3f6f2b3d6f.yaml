@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  b2d0c920-50e4-4d26-89b1-3035f2ac77e7:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-19T12:25:49+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d779f0dc-9989-4bfc-a650-2dbbaf83669e # Text ric
+            handle: text
+            includeInCards: false
+            instructions: null
+            label: Text
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2f342ecd-4d00-482e-a6e3-1525a196bd08
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenido
+        uid: 338d48f0-584e-4961-9316-587802588738
+        userCondition: null
+handle: entryRecursPregunta
+hasTitleField: false
+icon: null
+name: 'Entry > Recurs > Pregunta'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

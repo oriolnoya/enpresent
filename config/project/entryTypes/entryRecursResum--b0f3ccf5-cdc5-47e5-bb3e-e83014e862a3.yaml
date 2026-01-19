@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  c1191f0a-14ef-46bb-ae4b-839045dd23ac:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-19T12:25:22+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d779f0dc-9989-4bfc-a650-2dbbaf83669e # Text ric
+            handle: text
+            includeInCards: false
+            instructions: null
+            label: Text
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 70824dd1-9ef2-4b5f-860f-b22c805711fb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenido
+        uid: 6b467126-187f-4001-bc75-8113944ee2bc
+        userCondition: null
+handle: entryRecursResum
+hasTitleField: false
+icon: null
+name: 'Entry > Recurs > Resum'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

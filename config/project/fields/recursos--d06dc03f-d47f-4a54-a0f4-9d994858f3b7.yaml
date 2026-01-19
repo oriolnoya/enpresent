@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: capitols
+handle: recursos
 instructions: null
-name: Capítols
+name: Recursos
 searchable: false
 settings:
   allowSelfRelations: false
@@ -17,7 +17,7 @@ settings:
   showUnpermittedEntries: false
   showUnpermittedSections: false
   sources:
-    - 'section:8576967a-62f7-4292-be16-7feac208effb' # Entry > Capítol
+    - 'section:5e1d59cf-ace3-4bd7-9802-5ac75f3f0f28' # Entry > Recurs
   targetSiteId: null
   validateRelatedElements: false
   viewMode: cards

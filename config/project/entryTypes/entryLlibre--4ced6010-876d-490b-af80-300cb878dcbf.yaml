@@ -70,7 +70,24 @@ fieldLayouts:
             uid: e4647f29-dc6d-4979-ad7c-e0a90c6ddb9b
             userCondition: null
             warning: null
-            width: 25
+            width: 50
+          -
+            dateAdded: '2026-01-19T12:31:28+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d06dc03f-d47f-4a54-a0f4-9d994858f3b7 # Recursos
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa7dc345-80e6-4e96-bfee-b6d5df995a86
+            userCondition: null
+            warning: null
+            width: 50
         name: Contenido
         uid: abd7dde8-2dc5-4107-96bc-5c08f386c56f
         userCondition: null
