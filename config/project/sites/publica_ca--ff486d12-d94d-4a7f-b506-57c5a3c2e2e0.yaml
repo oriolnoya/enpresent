@@ -1,0 +1,9 @@
+baseUrl: $PUBLICA_CA_URL
+enabled: true
+handle: publica_ca
+hasUrls: true
+language: ca
+name: 'Pública [CA]'
+primary: true
+siteGroup: 39561329-9989-45fe-b242-218cbe6b3e40 # Part pública
+sortOrder: 1

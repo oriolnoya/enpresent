@@ -1,4 +1,4 @@
-dateModified: 1768822122
+dateModified: 1768823022
 elementSources:
   craft\elements\Entry:
     -
@@ -47,18 +47,21 @@ meta:
     1baada73-8057-4a1e-b0a6-ef8a7daa44f4: 'Text simple multilinea' # Text simple multilinea
     2c316bdb-68c4-4420-97b1-e85e1c5d681e: 'Entry > Capítol' # Entry > Capítol
     4ced6010-876d-490b-af80-300cb878dcbf: 'Entry > Llibre' # Entry > Llibre
+    5e4bcb36-5b6e-4752-b39a-9ec111473877: 'Part privada' # Part privada
     6ad2c898-0cf3-4058-aa22-7c1986e5b049: 'Entry > Persona' # Entry > Persona
+    033dacc8-df7a-4550-a5fc-ebae2179714e: 'Privada [CA]' # Privada [CA]
     2941c679-5c1e-45e1-b49a-193c180696e4: Simple # Simple
     69664e00-8076-4c4d-84b6-47a79c6c4b4b: 'Text simple' # Text simple
     8576967a-62f7-4292-be16-7feac208effb: 'Entry > Capítol' # Entry > Capítol
-    39561329-9989-45fe-b242-218cbe6b3e40: 'En present' # En present
+    39561329-9989-45fe-b242-218cbe6b3e40: 'Part pública' # Part pública
     c6bc2c8d-cdc6-477a-9261-a424e03645a9: 'Entry > Llibre' # Entry > Llibre
     d779f0dc-9989-4bfc-a650-2dbbaf83669e: 'Text ric' # Text ric
     d2399b89-87b2-4f3a-9eb7-e311a405ef62: Persones # Persones
     eb6ec4e7-328d-48ed-902e-9bad2fb003e3: 'Entry > Persona' # Entry > Persona
-    ee778f01-15ae-43a3-b335-e37f288be176: 'En present [ES]' # En present [ES]
+    ee778f01-15ae-43a3-b335-e37f288be176: 'Pública [ES]' # Pública [ES]
+    f55d6348-8ad5-414d-88c7-a50044a897c1: 'Privada [ES]' # Privada [ES]
     fe2f4045-02f4-41ad-a175-eb69191a1a05: Capítols # Capítols
-    ff486d12-d94d-4a7f-b506-57c5a3c2e2e0: 'En present [CA]' # En present [CA]
+    ff486d12-d94d-4a7f-b506-57c5a3c2e2e0: 'Pública [CA]' # Pública [CA]
 plugins:
   author-toolbar:
     edition: standard

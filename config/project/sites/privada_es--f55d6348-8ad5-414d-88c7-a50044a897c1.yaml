@@ -1,0 +1,9 @@
+baseUrl: $PRIVADA_ES_URL
+enabled: '1'
+handle: privada_es
+hasUrls: true
+language: es
+name: 'Privada [ES]'
+primary: false
+siteGroup: 5e4bcb36-5b6e-4752-b39a-9ec111473877 # Part privada
+sortOrder: 4

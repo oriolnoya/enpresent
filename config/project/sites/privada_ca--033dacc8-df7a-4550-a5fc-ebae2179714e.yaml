@@ -1,0 +1,9 @@
+baseUrl: $PRIVADA_CA_URL
+enabled: '1'
+handle: privada_ca
+hasUrls: true
+language: ca
+name: 'Privada [CA]'
+primary: false
+siteGroup: 5e4bcb36-5b6e-4752-b39a-9ec111473877 # Part privada
+sortOrder: 3
