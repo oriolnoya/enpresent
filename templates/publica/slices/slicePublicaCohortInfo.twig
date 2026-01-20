@@ -1,0 +1,58 @@
+<section class="page-section" id="{{ slice.slug }}">
+    <div class="container position-relative">
+
+        <div class="row">
+
+            <!-- Text -->
+            <div class="col-12 mb-md-60 mb-xs-30 d-flex align-items-center">
+                <div class="wow fadeInUp" data-wow-duration="1.2s" data-wow-offset="205">
+
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <h2 class="section-title mb-60 mb-sm-30">{{ slice.titol|nl2br }}</h2>
+                        </div>
+                    </div>
+
+                    <!-- Features Grid -->
+                    <div class="row alt-features-grid">
+
+                        {% for punt in slice.punts %}
+                            <div class="col-6 col-lg-3">
+                                <div class="alt-features-item">
+                                    <div class="mb-3">
+                                        <img src="/assets/publica/images/logo-grey.svg" alt="Your Company Logo" width="35" height="{{ 35 * 34/105 }}" />
+                                    </div>
+                                    <h3 class="alt-features-title">{{ punt.titol|nl2br }}</h3>
+                                    <div class="alt-features-descr">
+                                        {{ punt.text|raw }}
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+                    <!-- End Features Grid -->
+
+                </div>
+            </div>
+
+            {#<div class="col-lg-6 d-flex align-items-center">
+                <div class="call-action-3-images mt-xs-0 text-end">
+
+                    <div class="call-action-3-image-1">
+                        <img src="images/promo-6.jpg" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="205" />
+                    </div>
+
+                    <div class="call-action-3-image-2-wrap d-flex align-items-center">
+                        <div class="call-action-3-image-2" data-rellax-y data-rellax-speed="0.85" data-rellax-percentage="0.5">
+                            <img src="images/promo-7.jpg" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>#}
+
+        </div>
+
+    </div>
+</section>

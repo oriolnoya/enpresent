@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: d2a3b458-3882-45be-9463-67e5e6876316 # Entry > Formació
+handle: entryFormacio
+maxAuthors: 1
+name: 'Entry > Formació'
+previewTargets:
+  -
+    label: 'Página de entrada principal'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  033dacc8-df7a-4550-a5fc-ebae2179714e: # Privada [CA]
+    enabledByDefault: true
+    hasUrls: true
+    template: privada/pages/formacio-page.twig
+    uriFormat: '{slug}'
+  ee778f01-15ae-43a3-b335-e37f288be176: # Pública [ES]
+    enabledByDefault: true
+    hasUrls: true
+    template: publica/pages/formacio-page.twig
+    uriFormat: '{slug}'
+  f55d6348-8ad5-414d-88c7-a50044a897c1: # Privada [ES]
+    enabledByDefault: true
+    hasUrls: true
+    template: privada/pages/formacio-page.twig
+    uriFormat: '{slug}'
+  ff486d12-d94d-4a7f-b506-57c5a3c2e2e0: # Pública [CA]
+    enabledByDefault: true
+    hasUrls: true
+    template: publica/pages/formacio-page.twig
+    uriFormat: '{slug}'
+type: channel

@@ -1,0 +1,104 @@
+<hr class="mt-0 mb-0"/>
+
+<section class="page-section" id="{{ slice.slug }}">
+    <div class="container position-relative">
+
+        <div class="row">
+
+            <div class="col-lg-6">
+
+                <div class="row mb-50">
+                    <div class="col-lg-10">
+                        {% if slice.pretitol %}
+                            <h2 class="section-caption mb-xs-10">{{ slice.pretitol }}</h2>
+                        {% endif %}
+                        <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">{{ slice.titol|nl2br }}</span></h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="row mb-60 mb-sm-50">
+
+                    <!-- Contact Item -->
+                    <div class="col-sm-6 mb-xs-30 d-flex align-items-stretch">
+                        <div class="alt-features-item border-left mt-0 wow fadeScaleIn" data-wow-delay=".3s">
+                            <div class="alt-features-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                    <path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"/>
+                                </svg>
+                                <div class="alt-features-icon-s">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                        <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.445 17.827c-3.684 1.684-9.401-9.43-5.8-11.308l1.053-.519 1.746 3.409-1.042.513c-1.095.587 1.185 5.04 2.305 4.497l1.032-.505 1.76 3.397-1.054.516z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4 class="alt-features-title">Tens dubtes?</h4>
+                            <div class="alt-features-descr clearlinks">
+                                <div><a href="mailto:biblioteca@santsadurni.cat">biblioteca@santsadurni.cat</a></div>
+                                <div>93 891 20 33</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Contact Item -->
+
+                    <!-- Contact Item -->
+                    <div class="col-sm-6 d-flex align-items-stretch">
+                        <div class="alt-features-item border-left mt-0 wow fadeScaleIn" data-wow-delay=".5s">
+                            <div class="alt-features-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                    <path d="M12 10c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2m0-5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3m-7 2.602c0-3.517 3.271-6.602 7-6.602s7 3.085 7 6.602c0 3.455-2.563 7.543-7 14.527-4.489-7.073-7-11.072-7-14.527m7-7.602c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602"/>
+                                </svg>
+                            </div>
+                            <h4 class="alt-features-title">Localització</h4>
+                            <div class="alt-features-descr">
+                                Plaça Primer Homenatge a la Vellesa, 10 08770 Sant Sadurní d'Anoia
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Contact Item -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row wow fadeInUp" data-wow-delay="0.5s">
+
+            <div class="col-md-6 mb-sm-50">
+
+                <div class="row">
+                    <div class="col-12 col-lg-10">
+                        <div class="section-descr mb-50 mb-sm-30 wow fadeInUp" data-wow-delay="0.4s">
+                            {{ slice.text|raw }}
+                        </div>
+
+                        {% if slice.enllac %}
+                            <div class="pt-20">
+                                <a class="submit_btn btn btn-mod btn-large btn-round btn-hover-anim" href="{{ slice.enllac.value }}">
+                                    <span>{{ slice.enllac.label }}</span>
+                                </a>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 d-flex align-items-stretch">
+
+                <!-- Google Map -->
+                <div class="map-boxed">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4978.280559689336!2d1.782930162984445!3d41.42527062117545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a47cd39c283ab1%3A0x18cc123ec114af38!2sBiblioteca%20Ramon%20Bosch%20de%20Noya!5e1!3m2!1sca!2ses!4v1768590098033!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- End Google Map -->
+
+            </div>
+
+        </div>
+
+    </div>
+</section>

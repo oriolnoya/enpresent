@@ -1,0 +1,93 @@
+color: null
+description: null
+fieldLayouts:
+  d739902c-c969-4cab-8b5c-368ba428f3f2:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-01-20T11:54:19+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9de9fb4b-0536-409c-99c2-efa65a2d06cf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-20T12:04:40+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ef7630ba-fb04-44ec-a197-8de6ee12048d # Slices
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3e83ec75-0e8c-41fc-9a9e-bdcb80e77108
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenido
+        uid: c8ab045e-547f-41b0-be97-50ea80445a64
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-20T12:04:40+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c9159b52-7cc9-46e4-af7f-98636771701b # SEO
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12ce6388-1d6e-4fa9-becc-f05673a0ed8e
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: d124fbd4-4b6f-4210-8fc6-48156ee12f3a
+        userCondition: null
+handle: pageHome
+hasTitleField: true
+icon: null
+name: 'Page > Home'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

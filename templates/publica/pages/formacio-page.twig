@@ -1,0 +1,11 @@
+{% extends "/publica/layouts/base.twig" %}
+
+{% block body_title %}formacio{% endblock %}
+
+{% block body %}
+
+    {% for slice in entry.slices.all() %}
+        {% include "publica/slices/" ~ slice.type ~ "" with {'slice': slice} %}
+    {% endfor %}
+
+{% endblock %}

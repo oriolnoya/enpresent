@@ -1,0 +1,63 @@
+<section class="page-section bg-gray-light-1" id="{{ slice.slug }}">
+    <div class="container position-relative">
+
+        <div class="row">
+
+            <div class="col-lg-6 mb-md-60 mb-sm-30">
+
+                {% if slice.pretitol %}
+                    <h4 class="section-cap2tion mb-xs-10">{{ slice.pretitol }}</h4>
+                {% endif %}
+
+                <h3 class="section-title mb-30"><span class="wow charsAnimIn" data-splitting="chars">{{ slice.titol|nl2br }}</span></h3>
+
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="section-descr mb-50 mb-sm-30 wow fadeInUp" data-wow-delay="0.4s">
+                            {{ slice.text|raw }}
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="nav nav-tabs services-tabs wow fadeInUp" data-wow-delay="0.55s" role="tablist">
+                    {% for lectura in slice.lectures %}
+                        <li role="presentation">
+                            <a href="#{{ lectura.slug }}" class="{{ loop.index0 == 0 ? 'active' : '' }}" aria-controls="{{ lectura.slug }}"
+                               role="tab" aria-selected="true" data-bs-toggle="tab">{{ lectura.titol }} </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+
+            <div class="col-lg-6 d-flex wow fadeInLeft" data-wow-delay="0.55s" data-wow-offset="275">
+
+                <div class="tab-content services-content">
+
+                    {% for lectura in slice.lectures %}
+                        <div class="tab-pane services-content-item fade {{ loop.index0 == 0 ? 'show active' : '' }}" id="{{ lectura.slug }}" role="tabpanel">
+
+                            <div class="services-text">
+                                <div class="services-text-container">
+                                    <h4 class="services-title">{{ lectura.titol }}</h4>
+                                    <div class="text-gray mb-0">
+                                        {{ lectura.text|raw }}
+                                    </div>
+                                </div>
+                            </div>
+
+                            {% if lectura.imatges.one() %}
+                                <img class="services-image" src="{{ lectura.imatges.one().url }}" alt="Image Description" />
+                            {% endif %}
+
+                        </div>
+                    {% endfor %}
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>

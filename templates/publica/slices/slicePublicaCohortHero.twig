@@ -1,0 +1,93 @@
+<section class="home-section bg-gradient-gray-light-1 bg-scroll" id="{{ slice.slug }}">
+
+    <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
+
+        <!-- Home Section Content -->
+        <div class="home-content text-start">
+            <div class="row">
+
+                <!-- Home Section Text -->
+                <div class="col-md-10 offset-md-1 col-lg-6 offset-lg-0 d-flex align-items-center mb-md-60 mb-sm-30">
+                    <div class="w-100 text-center text-lg-start">
+
+                        {% if slice.pretitol %}
+                            <h4 class="section-capstion mb-30 mb-xs-10 wow fadeInUp">
+                                {{ slice.pretitol }}
+                            </h4>
+                        {% endif %}
+
+                        <h1 class="hs-title-8 mb-40 mb-sm-20 wow fadeInUp">
+                            {{ slice.titol|nl2br }}
+                        </h1>
+
+                        {#<h1 class="hs-title-8 mb-40 mb-sm-20 wow fadeInUp">
+                            Create your beautiful web presence
+                            <span class="visually-hidden">easily, fast, smart</span>
+                            <span data-period="3250" data-type='[ "easily", "fast", "smart"]' class="typewrite" aria-hidden="true"><span class="wrap"></span></span>
+                        </h1>#}
+
+                        <div class="section-descr mb-50 wow fadeInUp" data-wow-delay="0.2s">
+                            {{ slice.text|raw }}
+                        </div>
+
+                        <div class="local-scroll mt-n10 wow fadeInUp wch-unset" data-wow-delay="0.4s" data-wow-offset="0">
+                            <a href="#about" class="btn btn-mod btn-large btn-round btn-hover-anim align-middle mt-10"><span>Seguir llegint</span></a>
+                            {#<a href="https://www.youtube.com/watch?v=jTea_8Fk5Ns" class="link-hover-anim align-middle lightbox mfp-iframe ms-3 ms-sm-5 me-3 me-sm-5 mt-10" data-link-animate="y"><i class="icon-play size-13 me-1"></i> How it works?</a>#}
+                        </div>
+
+                    </div>
+                </div>
+                <!-- End Home Section Text -->
+
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="call-action-3-images mt-xs-0 text-end">
+
+                        {% if slice.imatges|length > 0 %}
+                            <div class="call-action-3-image-1">
+                                <img src="{{ slice.imatges[0].getUrl('medium') }}" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="205" />
+                            </div>
+                        {% endif %}
+
+                        {% if slice.imatges|length > 1 %}
+                            <div class="call-action-3-image-2-wrap d-flex align-items-center">
+                                <div class="call-action-3-image-2" data-rellax-y data-rellax-speed="0.85" data-rellax-percentage="0.5">
+                                    <img src="{{ slice.imatges[1].getUrl('medium') }}" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" />
+                                </div>
+                            </div>
+                        {% endif %}
+
+                    </div>
+                </div>
+
+                {#<!-- Images -->
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="w-100 ps-xl-3 wow fadeInLeft" data-wow-delay="0.15s">
+                        <div class="composition-4">
+
+                            {% if slice.imatges|length > 0 %}
+                                <div class="composition-4-image-1">
+                                    <div class="composition-4-image-1-inner">
+                                        <img src="{{ slice.imatges[0].getUrl('medium') }}" alt="Image Description" />
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                            {% if slice.imatges|length > 1 %}
+                                <div class="composition-4-image-2">
+                                    <div class="composition-4-image-2-inner">
+                                        <img src="{{ slice.imatges[1].getUrl('medium') }}" alt="Image Description" />
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End Images -->#}
+
+            </div>
+        </div>
+
+    </div>
+
+</section>

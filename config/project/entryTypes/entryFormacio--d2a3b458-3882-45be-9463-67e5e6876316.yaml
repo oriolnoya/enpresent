@@ -1,0 +1,87 @@
+color: null
+description: null
+fieldLayouts:
+  6e930881-4f75-48ad-93c7-bf3c927962c4:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-01-20T12:07:02+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 641d0eef-a0fb-4f81-a231-b69d05292140
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:15:06+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b0ffffbd-91f3-412b-9d05-6a5f2f1671e9 # Cohorts de la Formació
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 30b9f393-2002-4e2a-b72c-e526f236f755
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:15:06+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ef7630ba-fb04-44ec-a197-8de6ee12048d # Slices
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5fdb42cd-2986-417d-b337-ef4e9dde5b47
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenido
+        uid: afbb8878-0b22-418f-8da5-34936f7b2642
+        userCondition: null
+handle: entryFormacio
+hasTitleField: true
+icon: null
+name: 'Entry > Formació'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

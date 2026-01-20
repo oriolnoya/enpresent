@@ -1,0 +1,126 @@
+columnSuffix: null
+handle: seo
+instructions: null
+name: SEO
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - f8f9b56c-0900-458f-a6d9-caddbebc63b4
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - 10b23646-1936-4e7e-860a-074fbb560284
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - titol
+                            2:
+                              - label
+                              - Títol
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 50
+                            10:
+                              - dateAdded
+                              - '2026-01-20T12:04:22+00:00'
+                            11:
+                              - uid
+                              - a8cec1f3-9ae4-4d4b-b95b-1e9eac7f13b1
+                            14:
+                              - fieldUid
+                              - 69664e00-8076-4c4d-84b6-47a79c6c4b4b # Text simple
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - descripcio
+                            2:
+                              - label
+                              - Descripció
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 50
+                            10:
+                              - dateAdded
+                              - '2026-01-20T12:04:22+00:00'
+                            11:
+                              - uid
+                              - 1f0149f9-c48a-49ce-9fc6-14040b2270cc
+                            14:
+                              - fieldUid
+                              - 1baada73-8057-4a1e-b0a6-ef8a7daa44f4 # Text simple multilinea
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - keywords
+                            2:
+                              - label
+                              - 'Paraules clau'
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 50
+                            10:
+                              - dateAdded
+                              - '2026-01-20T12:04:22+00:00'
+                            11:
+                              - uid
+                              - fabeb4b9-0e4f-4592-990b-a9ccc8fa5738
+                            14:
+                              - fieldUid
+                              - 1baada73-8057-4a1e-b0a6-ef8a7daa44f4 # Text simple multilinea
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

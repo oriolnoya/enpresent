@@ -1,0 +1,36 @@
+
+{% set currentLanguage = craft.app.language %}
+
+{% set element = entry is defined and entry is not null ? entry : (category is defined and category is not null ? category : null) %}
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+    {% include '/publica/includes/head' %}
+
+    <body class="{{block('body_title')}} appear-animate">
+
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+
+        <a href="#main" class="btn skip-to-content">Skip to Content</a>
+
+        <div class="page" id="top">
+
+            {% include '/publica/includes/header' %}
+
+            <main id="main">
+                {% block body %}
+
+                {% endblock %}
+
+            </main>
+
+            {% include '/publica/includes/footer' %}
+
+        </div>
+    </body>
+
+    {% include '/publica/includes/footer-scripts' %}
+</html>

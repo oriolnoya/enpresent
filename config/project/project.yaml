@@ -1,4 +1,4 @@
-dateModified: 1768827673
+dateModified: 1768912870
 elementSources:
   craft\elements\Entry:
     -
@@ -13,6 +13,17 @@ elementSources:
         - section
         - postDate
         - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: singles
+      tableAttributes:
+        - status
         - link
       type: native
     -
@@ -36,41 +47,85 @@ elementSources:
       key: 'section:eb6ec4e7-328d-48ed-902e-9bad2fb003e3' # Entry > Persona
       type: native
     -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
       key: 'section:8576967a-62f7-4292-be16-7feac208effb' # Entry > Capítol
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
       type: native
     -
       key: 'section:5e1d59cf-ace3-4bd7-9802-5ac75f3f0f28' # Entry > Recurs
+      type: native
+    -
+      key: 'section:06843a82-f482-4804-a863-08966c532929' # Entry > Formació
+      type: native
+    -
+      key: 'section:1dc636cd-f202-42d7-ae97-07c5dc1b248f' # Entry > Cohort
       type: native
 email:
   fromEmail: oriolnoya@gmail.com
   fromName: 'En present'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  imatge:
+    hasUrls: true
+    name: Imatge
+    settings:
+      path: '@webroot/assets/uploads/imatges'
+    type: craft\fs\Local
+    url: '@web/assets/uploads/imatges'
 meta:
   __names__:
     1baada73-8057-4a1e-b0a6-ef8a7daa44f4: 'Text simple multilinea' # Text simple multilinea
+    1d6402be-539f-439e-b3b9-9d342a53d30d: 'Slice > Pública > Cohort > Itinerari' # Slice > Pública > Cohort > Itinerari
+    1dc636cd-f202-42d7-ae97-07c5dc1b248f: 'Entry > Cohort' # Entry > Cohort
     2c316bdb-68c4-4420-97b1-e85e1c5d681e: 'Entry > Capítol' # Entry > Capítol
+    2e0e37fd-5762-4986-a377-f396ea84f194: 'Entry > Cohort' # Entry > Cohort
     4ced6010-876d-490b-af80-300cb878dcbf: 'Entry > Llibre' # Entry > Llibre
+    5aee5e3b-2e0a-4ca8-a9b6-9553885ad787: 'Page > Home' # Page > Home
     5e1d59cf-ace3-4bd7-9802-5ac75f3f0f28: 'Entry > Recurs' # Entry > Recurs
     5e4bcb36-5b6e-4752-b39a-9ec111473877: 'Part privada' # Part privada
     6ad2c898-0cf3-4058-aa22-7c1986e5b049: 'Entry > Persona' # Entry > Persona
     7b4f3e82-417a-4f8f-a415-b801acb41d7c: 'Llibres de la persona' # Llibres de la persona
     7e586577-127c-46df-b92d-db3f6f2b3d6f: 'Entry > Recurs > Pregunta' # Entry > Recurs > Pregunta
     033dacc8-df7a-4550-a5fc-ebae2179714e: 'Privada [CA]' # Privada [CA]
+    46f205b8-e9d1-4a46-8c4b-b69868157b59: 'Slice > Pública > Cohort > Info' # Slice > Pública > Cohort > Info
+    239e1da4-41ee-4d4f-b6a5-c3769432c9a2: Imatge # Imatge
+    918df2bf-ce9b-4e16-a354-3ce9c4bedb65: Imatges # Imatges
     2941c679-5c1e-45e1-b49a-193c180696e4: Simple # Simple
+    06843a82-f482-4804-a863-08966c532929: 'Entry > Formació' # Entry > Formació
+    8221ed7c-fede-4b8e-818d-7755b2a2932a: Items # Items
     69664e00-8076-4c4d-84b6-47a79c6c4b4b: 'Text simple' # Text simple
     8576967a-62f7-4292-be16-7feac208effb: 'Entry > Capítol' # Entry > Capítol
     8952572a-e79d-48ec-b8c9-3762274fd560: Enllaç # Enllaç
     39561329-9989-45fe-b242-218cbe6b3e40: 'Part pública' # Part pública
+    ab40316b-e88b-40c8-99d1-15d6c2a8aedc: Formació # Formació
     b0f3ccf5-cdc5-47e5-bb3e-e83014e862a3: 'Entry > Recurs > Resum' # Entry > Recurs > Resum
+    b0ffffbd-91f3-412b-9d05-6a5f2f1671e9: 'Cohorts de la Formació' # Cohorts de la Formació
     b0588da5-48d5-4745-abed-464ae1811973: 'Entry > Recurs > Enllaç' # Entry > Recurs > Enllaç
     b0993479-9c99-451f-8b5b-4116eb1cf405: 'Capítols del recurs' # Capítols del recurs
+    c0ae42b0-f929-4bcc-96ab-4cc934af1233: 'Slice > Pública > Cohort > Contacte' # Slice > Pública > Cohort > Contacte
     c6bc2c8d-cdc6-477a-9261-a424e03645a9: 'Entry > Llibre' # Entry > Llibre
+    c9159b52-7cc9-46e4-af7f-98636771701b: SEO # SEO
+    cb37151f-e76e-41e9-a558-2a2217f85e26: 'Page > Home' # Page > Home
+    d0a27e64-b8c6-4f14-821c-287842de5aa4: Item # Item
     d06dc03f-d47f-4a54-a0f4-9d994858f3b7: Recursos # Recursos
+    d2a3b458-3882-45be-9463-67e5e6876316: 'Entry > Formació' # Entry > Formació
     d779f0dc-9989-4bfc-a650-2dbbaf83669e: 'Text ric' # Text ric
     d2399b89-87b2-4f3a-9eb7-e311a405ef62: Persones # Persones
     ddca9896-fed1-46a0-9f54-6c6f34565ed3: 'Llibre del capítol' # Llibre del capítol
+    e2d59ea0-b16f-4f15-a8d4-8f5aa40109a6: Taula # Taula
+    e5b8f089-8a54-480e-87eb-cef899f5f0ab: 'Slice > Pública > Cohort > Proposta' # Slice > Pública > Cohort > Proposta
     eb6ec4e7-328d-48ed-902e-9bad2fb003e3: 'Entry > Persona' # Entry > Persona
     ee778f01-15ae-43a3-b335-e37f288be176: 'Pública [ES]' # Pública [ES]
+    ef7630ba-fb04-44ec-a197-8de6ee12048d: Slices # Slices
+    f06ef316-c758-4cde-9e07-98d233d8bb74: 'Slice > Pública > Cohort > Hero' # Slice > Pública > Cohort > Hero
     f55d6348-8ad5-414d-88c7-a50044a897c1: 'Privada [ES]' # Privada [ES]
     f55331ba-c158-4c5c-8858-e94fe653dbc5: Full # Full
     fe2f4045-02f4-41ad-a175-eb69191a1a05: Capítols # Capítols

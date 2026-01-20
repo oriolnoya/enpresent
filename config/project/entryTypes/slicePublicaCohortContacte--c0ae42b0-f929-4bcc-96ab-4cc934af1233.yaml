@@ -1,0 +1,91 @@
+color: null
+description: null
+fieldLayouts:
+  29dde34c-efbc-4f2f-8499-bfe6d87fc12d:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-20T12:32:13+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 69664e00-8076-4c4d-84b6-47a79c6c4b4b # Text simple
+            handle: pretitol
+            includeInCards: false
+            instructions: null
+            label: Pretítol
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bb27328a-dd87-4789-8faa-7475b7eb3593
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:32:13+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1baada73-8057-4a1e-b0a6-ef8a7daa44f4 # Text simple multilinea
+            handle: titol
+            includeInCards: false
+            instructions: null
+            label: Títol
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 564e62a9-0275-4bb9-89a5-26dad407cae3
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:32:13+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d779f0dc-9989-4bfc-a650-2dbbaf83669e # Text ric
+            handle: text
+            includeInCards: false
+            instructions: null
+            label: Text
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de2cd9c1-cd12-4c04-8ca5-23ecb7b50161
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:32:13+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 8952572a-e79d-48ec-b8c9-3762274fd560 # Enllaç
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d2bd82d-9447-491a-ad9f-41d617046487
+            userCondition: null
+            warning: null
+            width: 50
+        name: Contenido
+        uid: 488fb49e-224c-46ab-89da-34caba3c593a
+        userCondition: null
+handle: slicePublicaCohortContacte
+hasTitleField: false
+icon: null
+name: 'Slice > Pública > Cohort > Contacte'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

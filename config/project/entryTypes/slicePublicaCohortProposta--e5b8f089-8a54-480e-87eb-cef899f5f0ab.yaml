@@ -1,0 +1,91 @@
+color: null
+description: null
+fieldLayouts:
+  358bdd8e-28a1-459e-96b9-d725a9c72dab:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-20T12:26:48+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 69664e00-8076-4c4d-84b6-47a79c6c4b4b # Text simple
+            handle: pretitol
+            includeInCards: false
+            instructions: null
+            label: Pretítol
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e30122fe-0cf2-42cf-a325-baa8a746efcd
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:26:48+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1baada73-8057-4a1e-b0a6-ef8a7daa44f4 # Text simple multilinea
+            handle: titol
+            includeInCards: false
+            instructions: null
+            label: Títol
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f7186fa8-cc12-45dc-b68e-3708177e2a8e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:27:46+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e2d59ea0-b16f-4f15-a8d4-8f5aa40109a6 # Taula
+            handle: punts
+            includeInCards: false
+            instructions: null
+            label: Punts
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a9b6fbe0-7c73-4917-8a6a-e6828ccfe336
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:26:48+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 918df2bf-ce9b-4e16-a354-3ce9c4bedb65 # Imatges
+            handle: imatge
+            includeInCards: false
+            instructions: null
+            label: Imatge
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4e45fa04-0308-4d76-8fcd-b52e77d9710b
+            userCondition: null
+            warning: null
+            width: 50
+        name: Contenido
+        uid: ef33ee32-5641-454a-bad9-2f707672fedb
+        userCondition: null
+handle: slicePublicaCohortProposta
+hasTitleField: false
+icon: null
+name: 'Slice > Pública > Cohort > Proposta'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

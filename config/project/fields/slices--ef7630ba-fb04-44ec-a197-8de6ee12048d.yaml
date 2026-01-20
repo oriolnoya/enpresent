@@ -1,0 +1,61 @@
+columnSuffix: null
+handle: slices
+instructions: null
+name: Slices
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - f06ef316-c758-4cde-9e07-98d233d8bb74 # Slice > Pública > Cohort > Hero
+        -
+          - group
+          - Cohort
+    -
+      __assoc__:
+        -
+          - uid
+          - e5b8f089-8a54-480e-87eb-cef899f5f0ab # Slice > Pública > Cohort > Proposta
+        -
+          - group
+          - Cohort
+    -
+      __assoc__:
+        -
+          - uid
+          - 1d6402be-539f-439e-b3b9-9d342a53d30d # Slice > Pública > Cohort > Itinerari
+        -
+          - group
+          - Cohort
+    -
+      __assoc__:
+        -
+          - uid
+          - 46f205b8-e9d1-4a46-8c4b-b69868157b59 # Slice > Pública > Cohort > Info
+        -
+          - group
+          - Cohort
+    -
+      __assoc__:
+        -
+          - uid
+          - c0ae42b0-f929-4bcc-96ab-4cc934af1233 # Slice > Pública > Cohort > Contacte
+        -
+          - group
+          - Cohort
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

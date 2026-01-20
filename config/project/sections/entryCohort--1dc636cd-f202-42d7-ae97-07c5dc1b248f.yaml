@@ -1,0 +1,39 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 2e0e37fd-5762-4986-a377-f396ea84f194 # Entry > Cohort
+handle: entryCohort
+maxAuthors: 1
+name: 'Entry > Cohort'
+previewTargets:
+  -
+    label: 'Página de entrada principal'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  033dacc8-df7a-4550-a5fc-ebae2179714e: # Privada [CA]
+    enabledByDefault: true
+    hasUrls: true
+    template: privada/pages/cohort-page.twig
+    uriFormat: '{formacio.one().slug}/{slug}'
+  ee778f01-15ae-43a3-b335-e37f288be176: # Pública [ES]
+    enabledByDefault: true
+    hasUrls: true
+    template: publica/pages/cohort-page.twig
+    uriFormat: '{formacio.one().slug}/{slug}'
+  f55d6348-8ad5-414d-88c7-a50044a897c1: # Privada [ES]
+    enabledByDefault: true
+    hasUrls: true
+    template: privada/pages/cohort-page.twig
+    uriFormat: '{formacio.one().slug}/{slug}'
+  ff486d12-d94d-4a7f-b506-57c5a3c2e2e0: # Pública [CA]
+    enabledByDefault: true
+    hasUrls: true
+    template: publica/pages/cohort-page.twig
+    uriFormat: '{formacio.one().slug}/{slug}'
+structure:
+  maxLevels: null
+  uid: a5bc8354-c6c0-461a-8b31-467e6a581378
+type: structure

@@ -1,0 +1,51 @@
+<nav class="main-nav transparent stick-fixed wow-menubar wch-unset">
+    <div class="main-nav-sub container">
+
+        <!-- Logo  (* Add your text or image to the link tag. Use SVG or PNG image format.
+        If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
+        image size for support of retina screens. See details in the template documentation. *) -->
+        <div class="nav-logo-wrap position-static local-scroll">
+            <a href="{{ pageHome.url }}" class="logo">
+                <img src="/assets/publica/images/logo-dark.svg" alt="Your Company Logo" width="35" height="{{ 35 * 34/105 }}" />
+            </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="mobile-nav" role="button" tabindex="0">
+            <i class="mobile-nav-icon"></i>
+            <span class="visually-hidden">Menu</span>
+        </div>
+
+        <!-- Main Menu -->
+        <div class="inner-nav desktop-nav">
+            <ul class="clearlist scroll-nav local-scroll">
+                {% for slice in entry.slices %}
+                    <li><a href="#{{ slice.slug }}" class="{{ loop.index0 == 0 ? 'active' : '' }}">{{ slice.pretitol }}</a></li>
+                {% endfor %}
+            </ul>
+
+            <ul class="items-end clearlist local-scroll">
+
+                {#<li>
+                    <a href="#" class="mn-has-sub opacity-1">En <i class="mi-chevron-down"></i></a>
+
+                    <ul class="mn-sub to-left">
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">German</a></li>
+                    </ul>
+                </li>#}
+
+                {#<li>
+                    <a href="#contact" class="opacity-1 no-hover">
+                        <span class="link-hover-anim underline" data-link-animate="y">Inscriu-te!</span>
+                    </a>
+                </li>#}
+
+            </ul>
+
+        </div>
+        <!-- End Main Menu -->
+
+    </div>
+</nav>

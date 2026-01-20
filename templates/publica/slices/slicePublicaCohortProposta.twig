@@ -1,0 +1,49 @@
+
+<section class="page-section" id="{{ slice.slug }}">
+    <div class="container position-relative">
+
+        <div class="row mb-60 mb-xs-30">
+
+            <div class="col-md-7">
+                {% if slice.pretitol %}
+                    <h4 class="sectison-caption mb-xs-10">{{ slice.pretitol }}</h4>
+                {% endif %}
+                <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">{{ slice.titol|nl2br }}</span></h3>
+            </div>
+
+            {#<div class="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
+                <a href="#team" class="link-hover-anim underline align-middle" data-link-animate="y">Learn more about us <i class="mi-arrow-right size-18"></i></a>
+            </div>#}
+
+        </div>
+
+        <div class="row wow fadeInUp" data-wow-delay="0.5s">
+
+            <div class="col-lg-5 mb-md-60">
+                <div class="position-relative">
+
+                    {% if slice.imatge.one() %}
+                        <div class="position-relative overflow-hidden">
+                            <img src="{{ slice.imatge.one().getUrl('medium') }}" class="image-fullwidth relative" alt="Image Description" />
+                        </div>
+                    {% endif %}
+
+                </div>
+            </div>
+
+            <div class="col-lg-6 offset-xl-1">
+
+                {% for punt in slice.punts %}
+                    <h4 class="h5">{{ punt.titol }}</h4>
+
+                    <p class="text-gray">
+                        {{ punt.text|nl2br }}
+                    </p>
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </div>
+</section>

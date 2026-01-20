@@ -1,0 +1,91 @@
+color: null
+description: null
+fieldLayouts:
+  9fbd7bd0-54f3-4138-ac46-c67a97e30db2:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-20T12:30:00+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1baada73-8057-4a1e-b0a6-ef8a7daa44f4 # Text simple multilinea
+            handle: titol
+            includeInCards: false
+            instructions: null
+            label: Títol
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fb7a5f9b-e814-427a-a3f1-25f5e22775a6
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:30:00+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d779f0dc-9989-4bfc-a650-2dbbaf83669e # Text ric
+            handle: text
+            includeInCards: false
+            instructions: null
+            label: Text
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2e1a3758-b1b6-4ffb-a53b-e84b192e7075
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:30:00+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 918df2bf-ce9b-4e16-a354-3ce9c4bedb65 # Imatges
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4fc2c4c5-fb8c-4d80-9c64-662a2818d018
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-01-20T12:30:00+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 8952572a-e79d-48ec-b8c9-3762274fd560 # Enllaç
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ef0c8dd-563c-421b-b602-cb724775002d
+            userCondition: null
+            warning: null
+            width: 50
+        name: Contenido
+        uid: a9714f76-c0ac-4cef-81c1-45b0f070503b
+        userCondition: null
+handle: item
+hasTitleField: false
+icon: null
+name: Item
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{titol}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
