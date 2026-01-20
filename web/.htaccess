@@ -2,7 +2,7 @@
     RewriteEngine On
 
     RewriteCond %{HTTP_HOST} ^bibliosantsa2026\.enpresent\.cat$ [NC]
-    RewriteRule ^(.*)$ https://www.enpresent.cat/en-present/biblioteca-sant-sadurni-danoia-2026/$1 [R=301,L]
+    RewriteRule ^(.*)$ https://w.enpresent.cat/en-present/biblioteca-sant-sadurni-danoia-2026/$1 [R=301,L]
 
     # Route 404s to index.php
     RewriteCond %{REQUEST_FILENAME} !-f
