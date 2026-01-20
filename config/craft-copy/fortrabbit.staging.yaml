@@ -1,0 +1,9 @@
+app: enpresent
+ssh_url: enpresent@deploy.eu2.frbit.com
+git_remote: enpresent/master
+before:
+    code/up: {  }
+after:
+    code/down:
+        - 'php craft migrate/all'
+        - 'php craft project-config/apply'

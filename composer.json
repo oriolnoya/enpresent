@@ -5,6 +5,7 @@
     "craftcms/ckeditor": "4.11.0",
     "craftcms/cms": "^5.0.0",
     "digitalastronaut/craft-author-toolbar": "v1.2.9-beta",
+    "fortrabbit/craft-copy": "^3.0.1",
     "nystudio107/craft-seomatic": "5.1.19",
     "robuust/craft-reverserelations": "3.0.6",
     "verbb/image-resizer": "4.0.4",
@@ -17,6 +18,7 @@
   "config": {
     "allow-plugins": {
       "craftcms/plugin-installer": true,
+      "fortrabbit/craft-auto-migrate": true,
       "yiisoft/yii2-composer": true
     },
     "sort-packages": true,
